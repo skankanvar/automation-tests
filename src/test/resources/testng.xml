@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Practice Suite">
+	<listeners>
+		<listener class-name="ListenersClass" />
+		<listener class-name="com.example.ReportListener" />
+	</listeners>
+
+	<test name="Test Basics 1">
+		<parameter name="emailid" value="tester456@gmail.com" />
+		<parameter name="password" value="test@123" />
+		<groups>
+			<run>
+				<include name="failed" />
+				<exclude name="success" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="regressiontestsuite.*" />
+		</packages>
+
+
+		<classes>
+			<class name="practiceTests.testParameters">
+				<methods>
+					<include name="testMakeOrder" />
+					<include name="testUpdateOrder" />
+					<exclude name="testMakeOrder" />
+				</methods>
+			</class>
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="Test Basics 2">
+		<parameter name="emailid" value="tester789@gmail.com" />
+		<classes>
+			<class name="practiceTests.testOptional" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
