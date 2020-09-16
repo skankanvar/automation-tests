@@ -9,9 +9,3 @@ Feature: check fb page
     When feilds are blank
     And sign in clicked
     Then validate the error message and close the window
-
-    
-
-
-
-
