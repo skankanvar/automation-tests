@@ -1,0 +1,7 @@
+utils/XlsDataProvider.class
+regressiontestsuite/RegressionTest2.class
+smokesuite/SmokeTest1.class
+stepdefinitions/FBsteps.class
+runners/TestRunner.class
+regressiontestsuite/RegressionTest1.class
+smokesuite/SmokeTest2.class

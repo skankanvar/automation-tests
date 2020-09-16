@@ -1,0 +1,12 @@
+utils/XlsDataProvider.class
+entities/Order.class
+entities/Product.class
+configs/ConfigManager.class
+smokesuite/SmokeTest1.class
+stepdefinitions/FBsteps.class
+runners/TestRunner.class
+smokesuite/SmokeTest2.class
+databaserepo/MySqlRepository.class
+pageobjects/FbLoginPage.class
+regressiontestsuite/RegressionTest2.class
+regressiontestsuite/RegressionTest1.class
