@@ -38,6 +38,16 @@ public class FBsteps {
   public void then() throws Throwable {
 	  System.out.println(FBsteps.class.getName()+"then"); 
   }
+  
+  @And("^sign in not clicked$")
+  public void sign_in_not_clicked() throws Throwable {
+	  System.out.println(FBsteps.class.getName()+"and");
+  }
+
+  @Then("^do nothing$")
+  public void do_nothing() throws Throwable {
+	  System.out.println(FBsteps.class.getName()+"then"); 
+  }
 
 
 }
